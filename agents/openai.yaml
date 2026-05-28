@@ -1,0 +1,4 @@
+﻿name: devflow-fullstack
+display_name: DevFlow 全链路
+short_description: 一站式开发辅助：编码→调试→重构→部署→复盘。37项能力覆盖全流程。
+default_prompt: "用 DevFlow 审查代码质量并给出优化建议"
