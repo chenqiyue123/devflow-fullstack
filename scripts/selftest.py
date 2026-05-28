@@ -34,7 +34,7 @@ TESTS = [
 def run_test(script, args):
     cmd = [sys.executable, str(SCRIPTS_DIR / script)] + [str(a) for a in args]
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30, encoding="utf-8", errors="replace")
         return result.returncode, result.stdout + result.stderr
     except subprocess.TimeoutExpired:
         return -1, "TIMEOUT"
