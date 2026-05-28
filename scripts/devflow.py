@@ -64,7 +64,7 @@ def run_step(step_id, step_config, target_dir, verbose=False):
     
     try:
         start = time.time()
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, encoding="utf-8", errors="replace")
         elapsed = time.time() - start
         return {
             "id": step_id,
