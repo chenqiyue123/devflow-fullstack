@@ -67,7 +67,7 @@ mklink /J %USERPROFILE%\.codex\skills\devflow-fullstack D:\CodexSkills\devflow-f
 
 ## 作者
 
-**陈启粤 (Queyue)** — 广东东软学院
+**陈启粤 (Queyue)** 
 
 [![GitHub](https://img.shields.io/badge/GitHub-chenqiyue123-181717?logo=github)](https://github.com/chenqiyue123)
 
