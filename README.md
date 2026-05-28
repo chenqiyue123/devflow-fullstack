@@ -39,7 +39,7 @@ python scripts/testgen.py --file calculator.py --framework pytest
 ## ??
 
 ```bash
-git clone https://github.com/queyue0728-sys/devflow-fullstack.git
+git clone https://github.com/chenqiyue123/devflow-fullstack.git
 cd devflow-fullstack
 # ???????
 python scripts/selftest.py
@@ -69,7 +69,7 @@ mklink /J %USERPROFILE%\.codex\skills\devflow-fullstack D:\CodexSkills\devflow-f
 
 **??? (Queyue)** ? ??????
 
-[![GitHub](https://img.shields.io/badge/GitHub-queyue0728--sys-181717?logo=github)](https://github.com/queyue0728-sys)
+[![GitHub](https://img.shields.io/badge/GitHub-queyue0728--sys-181717?logo=github)](https://github.com/chenqiyue123)
 
 ---
 
