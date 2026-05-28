@@ -73,7 +73,7 @@ def check_all(dirpath):
                ".github/workflows",".eslintrc","tsconfig.json","tailwind.config.js"]
     for c in configs:
         if (p / c).exists():
-            results.append(f"  ✓ {c}")
+            results.append(f"  [OK] {c}")
 
     # Missing recommended files
     recommended = [".gitignore","README.md"]
